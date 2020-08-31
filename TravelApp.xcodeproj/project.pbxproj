@@ -13,6 +13,10 @@
 		642F7D8624FD45D800F6FAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642F7D8524FD45D800F6FAF1 /* Assets.xcassets */; };
 		642F7D8924FD45D800F6FAF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642F7D8824FD45D800F6FAF1 /* Preview Assets.xcassets */; };
 		642F7D8C24FD45D800F6FAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642F7D8A24FD45D800F6FAF1 /* LaunchScreen.storyboard */; };
+		645BA2C224FD541000A17FAC /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BA2C124FD541000A17FAC /* DetailsView.swift */; };
+		645BA2C424FD545900A17FAC /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BA2C324FD545900A17FAC /* TopView.swift */; };
+		645BA2C624FD54C300A17FAC /* DetailsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645BA2C524FD54C300A17FAC /* DetailsContentView.swift */; };
+		645BA2C824FD550F00A17FAC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 645BA2C724FD550F00A17FAC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		642F7D8824FD45D800F6FAF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		642F7D8B24FD45D800F6FAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		642F7D8D24FD45D800F6FAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645BA2C124FD541000A17FAC /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		645BA2C324FD545900A17FAC /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		645BA2C524FD54C300A17FAC /* DetailsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsContentView.swift; sourceTree = "<group>"; };
+		645BA2C724FD550F00A17FAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		642F7D7324FD45D600F6FAF1 = {
 			isa = PBXGroup;
 			children = (
+				645BA2C724FD550F00A17FAC /* README.md */,
 				642F7D7E24FD45D600F6FAF1 /* TravelApp */,
 				642F7D7D24FD45D600F6FAF1 /* Products */,
 			);
@@ -56,6 +65,7 @@
 		642F7D7E24FD45D600F6FAF1 /* TravelApp */ = {
 			isa = PBXGroup;
 			children = (
+				645BA2C024FD540200A17FAC /* Views */,
 				642F7D7F24FD45D600F6FAF1 /* AppDelegate.swift */,
 				642F7D8124FD45D600F6FAF1 /* SceneDelegate.swift */,
 				642F7D8324FD45D600F6FAF1 /* ContentView.swift */,
@@ -73,6 +83,16 @@
 				642F7D8824FD45D800F6FAF1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		645BA2C024FD540200A17FAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				645BA2C524FD54C300A17FAC /* DetailsContentView.swift */,
+				645BA2C124FD541000A17FAC /* DetailsView.swift */,
+				645BA2C324FD545900A17FAC /* TopView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +155,7 @@
 			files = (
 				642F7D8C24FD45D800F6FAF1 /* LaunchScreen.storyboard in Resources */,
 				642F7D8924FD45D800F6FAF1 /* Preview Assets.xcassets in Resources */,
+				645BA2C824FD550F00A17FAC /* README.md in Resources */,
 				642F7D8624FD45D800F6FAF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				642F7D8024FD45D600F6FAF1 /* AppDelegate.swift in Sources */,
+				645BA2C424FD545900A17FAC /* TopView.swift in Sources */,
+				645BA2C224FD541000A17FAC /* DetailsView.swift in Sources */,
+				645BA2C624FD54C300A17FAC /* DetailsContentView.swift in Sources */,
 				642F7D8224FD45D600F6FAF1 /* SceneDelegate.swift in Sources */,
 				642F7D8424FD45D600F6FAF1 /* ContentView.swift in Sources */,
 			);
